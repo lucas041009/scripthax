@@ -64,7 +64,7 @@ var room = HBInit({
 	public: roomPublic,
 	geo: {code: "AG", lat: -9.189967, lon: -75.015152},
 	noPlayer: true,
-	token: token
+	token: roomArgs['token']
 });
 
 
