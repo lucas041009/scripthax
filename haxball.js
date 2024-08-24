@@ -51,7 +51,7 @@ var roomName = "🟩🟦🟥[HAX4] Real Soccer | dsc.gg/hax4";
 var roomPassword = null;
 var maxPlayers = 24;
 var roomPublic = true;
-var token = ""; playerName: botName, geo: geo[0] });
+var token = "";
 var roomLink = "";
 var gameTime = 10; //default game time if 0 is selected
 var map = "RSR";
@@ -64,8 +64,8 @@ var room = HBInit({
 	maxPlayers: maxPlayers,
 	public: roomPublic,
 	token: roomArgs['token'],
-    playerName: botname,
-    geo: {code: "AG", lat: -9.189967, lon: -75.015152}
+    	playerName: botname,
+    	geo: {code: "AG", lat: -9.189967, lon: -75.015152}
 });
 
 
