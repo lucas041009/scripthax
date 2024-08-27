@@ -30,7 +30,7 @@ var chamar = new XMLHttpRequest();
 
 setInterval(() => { discord(`**__¡La sala de Futsal 4x4 sigue abierta! ${roomLink}__**`)}, 1800000);
 
-const room = HBInit({roomName: roomName, maxPlayers: maxPlayers, public: roomPublic, playerName: botName, geo: geo[0]}, token: roomArgs['token']);
+const room = HBInit({roomName: roomName, maxPlayers: maxPlayers, public: roomPublic, playerName: botName, geo: geo[0], token: roomArgs['token']});
 
 const goles_mapaSolo = 3;
 const goles_mapa4vs4 = 3;
