@@ -1,5 +1,5 @@
 const roomName = "🟩🟦🟥 [HAX4] Real Soccer | dsc.gg/hax4";
-const botName = "🤖 ";
+const botName = "🤖 ÁRBITRO BOT";
 const maxPlayers = 24;
 const roomPublic = true;
 const geo = [{code: "AG", lat: -9.189967, lon: -75.015152}];
