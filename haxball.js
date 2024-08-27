@@ -836,7 +836,8 @@ room.onPlayerJoin = function(player) {
 	whisper("                        ██║     ██║ ██║      ██║  ██╔╝ ██╗             ██║                     ", player.id, 0xD53E24, "bold", 2);
 	whisper("                       ╚═╝     ╚═╝ ╚═╝      ╚═╝  ╚═╝    ╚═╝             ╚═╝                     ", player.id, 0xE72C19, "bold", 2);
 	room.sendAnnouncement("• • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • ", player.id);
-	room.sendAnnouncement("👋 𝗕𝗶𝗲𝗻𝘃𝗲𝗻𝗶𝗱𝗼 " + player.name + "!   𝗘𝘀𝗰𝗿𝗶𝗯𝗮 '!𝗵𝗲𝗹𝗽' 𝗽𝗮𝗿𝗮 𝘃𝗲𝗿 𝗹𝗼𝘀 𝗰𝗼𝗺𝗮𝗻𝗱𝗼𝘀.", player.id);
+	room.sendAnnouncement("👋 Bienvenido " + player.name + "!   Escribe !help para ver los comandos", player.id);
+	room.sendAnnouncement("👾 Discord: dsc.gg/hax4", player.id);
 	if (localStorage.getItem(player.auth) != null) {
 		if (JSON.parse(localStorage.getItem(player.auth))[Ss.RL] != "player") {
 			room.setPlayerAdmin(player.id, true);
